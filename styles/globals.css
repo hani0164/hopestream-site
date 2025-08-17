@@ -1,0 +1,17 @@
+/* Import Tailwind’s layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global resets and typography */
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+a {
+  @apply text-primary underline;
+}
